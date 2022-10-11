@@ -1,0 +1,217 @@
+/* IMPOSTAZIONI GENERALI */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    color: #000;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.8;
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 3.5rem;
+    line-height: 1.1;
+}
+
+h3 {
+    line-height: 1;
+}
+
+header {
+    box-shadow: 0 0 1px #d3d3d3;
+    background-color: white;
+
+}
+
+footer {
+    background-color: rgb(238, 238, 238);
+}
+
+
+/* HEADER */
+
+header {
+    padding: 10px;
+    display: flex;
+   flex-direction: column;
+   background-color: #fff;
+   align-items: flex-start;
+   box-shadow: 2px 15px 26px 1px rgb(168, 168, 168);
+   
+
+}
+
+
+.trePunti {
+    color: red;
+    display: block;
+    cursor: pointer;
+}
+
+.registrazione {
+    background: linear-gradient(90deg, #6cc1e2 10%, #392f7a 70%);
+    color: white;
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/* MAIN */
+
+main {
+    margin-bottom: 4em;
+}
+
+.presentazione{
+    padding: 10%;
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+   background-size:cover;
+    background-repeat: no-repeat;
+
+}
+
+.presentazione{
+    color: white
+}
+
+main div a:link {
+    background: linear-gradient(90deg, #6cc1e2 10%, #392f7a 70%);
+    text-decoration: none;
+    padding: 10px 30px 10px 30px;
+    font-size: 0.8rem;
+
+}
+
+main div a:visited {
+    background: linear-gradient(90deg, #6cc1e2 10%, #392f7a 70%);
+    text-decoration: none;
+    padding: 10px 30px 10px 30px;
+    font-size: 0.8rem;
+    color: white;
+}
+
+.descrizione {
+    text-align: center;
+    padding: 6%;
+    color: red;
+}
+
+.descrizione h2{
+    color:black
+}
+
+
+
+.descrizione p {
+    color: black
+}
+
+
+
+.scrivici {
+    background: linear-gradient(90deg, #6cc1e2 10%, #392f7a 70%);
+    color: white;
+
+}
+
+.nota {
+    background-color: #0c0633;
+    text-align: center;
+    color: white;
+    padding: 15%;
+    font-size: 1.2rem;
+}
+
+.nota h1 {
+    line-height: normal;
+    font-size: 500%;
+    margin-bottom: 20px;
+}
+
+/*MAIN CHI SIAMO*/
+
+.presentazione {
+    font-size: 2.2rem;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+section {
+    justify-content: center;
+    padding: 50px;
+    width: 100%;
+}
+
+.paragrafo{
+    color: black;
+}
+
+/*CONTATTI*/
+
+.contatti{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.scrittac{
+    text-align: center;
+}
+
+
+/* FOOTER */
+
+footer {
+    padding: 3em;
+}
+
+footer h3 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+footer p {
+    margin-bottom: 1em;
+}
+
+.lni {
+    color: #e42424;
+    font-size: 2.5em;
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+input{
+    height: 30px;
+}
+
+button {
+    background: linear-gradient(90deg, #6cc1e2 10%, #392f7a 70%);
+    color: white;
+    width: 150px;
+   padding: 10px;
+}
